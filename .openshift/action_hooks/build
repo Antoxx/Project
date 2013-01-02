@@ -13,4 +13,5 @@ echo 'Antoxx in bash';
 #echo "" 1>&2
 #echo ls;
 
+ln -s $OPENSHIFT_REPO_DIR/app $OPENSHIFT_REPO_DIR/php/app
 ln -s $OPENSHIFT_REPO_DIR/web $OPENSHIFT_REPO_DIR/php/web
