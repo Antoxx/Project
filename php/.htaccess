@@ -7,5 +7,5 @@
 
     RewriteCond %{REQUEST_FILENAME} !-f
     #RewriteRule ^(.*)$ %{ENV:OPENSHIFT_REPO_DIR}web/app.php [QSA,L]
-    RewriteRule ^(.*)$ %{ENV:OPENSHIFT_REPO_DIR}php/health_check.php [QSA,L]
+    RewriteRule ^(.*)$ %{ENV:OPENSHIFT_REPO_DIR}index.html [QSA,L]
 </IfModule>
