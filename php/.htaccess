@@ -9,5 +9,5 @@ php_value date.timezone "Europe/Moscow"
 
     RewriteCond %{REQUEST_FILENAME} !-f
     #RewriteRule ^(.*)$ %{ENV:OPENSHIFT_REPO_DIR}web/app.php [QSA,L]
-    #RewriteRule ^(.*)$ web/app_dev.php [QSA,L]
+    RewriteRule ^(.*)$ web/app_dev.php [QSA,L]
 </IfModule>
