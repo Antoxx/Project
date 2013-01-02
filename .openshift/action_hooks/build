@@ -13,7 +13,7 @@ read -n 1 -p "Need to build app [y/n]: " AMSURE
 [ "$AMSURE" = "y" ] || exit
 echo "" 1>&2
 echo ls;
-*/
+*/ 
 
 unlink $OPENSHIFT_REPO_DIR/php/index.php;
 #ln -s $OPENSHIFT_REPO_DIR/web/app_dev.php $OPENSHIFT_REPO_DIR/php/index.php
